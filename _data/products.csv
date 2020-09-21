@@ -1,0 +1,205 @@
+Name,Name (TR),Short,Description,Description (TR),Specs,Specs (TR),Meta Title,Meta Description,Pathname
+Livi Smart Hub,Livi Smart Hub,lsh,"Livi Smart Hub is an essential element of the Livicom Smart Home. It combines Livi radio devices in a unified system, receives information from the sensors, and sends notifications to user's smartphones. Livi Smart Hub has a built-in diagnostics of communication channels state, power supply state, and the finance balance of the SIM-card.","Alarm ve Otomasyon sistemlerinin vazgeçilmez bir unsuru olan Livi Smart Hub, kablosuz cihazlarını tümleşik bir sistemde birleştirir, sensörlerden bilgi alır ve kullanıcının akıllı telefonlarına bildirimler gönderir. Livi Smart Hub, haberleşme kanalları durumunun, güç kaynağı durumunun ve SIM kartın finans dengesinin yerleşik bir teşhisine sahiptir.","Supports Ethernet, 2G, and 3G cellular standards <br/>
+Connects with up to 256 Livi radio devices <br/>
+Power supply: adaptor 5 V, 1 A <br/>
+Power backup: Li-Ion battery 1000 mAh <br/>
+Power backup time: 12 hours","Ethernet, 2G ve 3G hücresel standartlarını destekler. <br/>
+256 adede kadar Livi radyo cihazına bağlanır <br/>
+Güç kaynağı: adaptör 5 V, 1 A <br/>
+Yedek güç: Li-Ion pil 1000 mAh <br/>
+Yedek güç süresi: 12 saat",Livi Smart Hub / Livi Smart Hub 2G manual,The manual page of Livi Smart Hub / Livi Smart Hub 2G.,hubhelp
+Livi Smart Hub 2G,Livi Smart Hub 2G,lsh2g,"Livi Smart Hub 2G is an essential element of the Livicom Smart Home. It combines Livi radio devices in a unified system, receives information from the sensors, and sends notifications to user's smartphones. Livi Smart Hub 2G has a built-in diagnostics of communication channels state, power supply state, and the finance balance of the SIM-card.","Alarm ve Otomasyon sistemlerinin vazgeçilmez bir unsuru olan Livi Smart Hub 2G kablosuz cihazlarını tümleşik bir sistemde birleştirir, sensörlerden bilgi alır ve kullanıcının akıllı telefonlarına bildirimler gönderir. Livi Smart Hub 2G, iletişim kanalları durumunun, güç kaynağı durumunun ve SIM kartın finans dengesinin yerleşik bir teşhisine sahiptir.","Supports Ethernet and 2G cellular standard <br/>
+Connects with up to 64 Livi radio devices <br/>
+Power supply: adaptor 5 V, 1 A <br/>
+Power backup: Li-Ion battery 1000 mAh <br/>
+Power backup time: 15 hours","Ethernet ve 2G hücresel standardı destekler <br/>
+64 adede kadar Livi radyo cihazına bağlanır <br/>
+Güç kaynağı: adaptör 5 V, 1 A <br/>
+Yedek güç: Li-Ion pil 1000 mAh <br/>
+Yedek güç süresi: 15 saat",Livi Smart Hub / Livi Smart Hub 2G manual,The manual page of Livi Smart Hub / Livi Smart Hub 2G.,hubhelp
+Livi MS motion sensor,Livi MS Kablosuz Hareket Sensörü,lms,"A wireless passive infrared sensor detects intrusions into a guarded site. Сustomizable sensitivity to pets weighing up to 20 kg. Protected against false alarms caused by bright light and heatwaves. Battery discharge, connection loss, device tampering notifications.","Kablosuz pasif kızılötesi sensör, korunan bir sahaya izinsiz girişleri algılar. 20 kg'a kadar ağırlığındaki evcil hayvanlara karşı hassasiyet gösterir. Parlak ışık ve ısı dalgalarının neden olduğu yanlış alarmlara karşı korunur. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Motion detection: up to 10 m <br/>
+The angle of motion detection: up to 88,5 degrees <br/>
+Operating frequency: 868.7 MHz <br/>
+Operating range: up to 1 km from Livi Smart Hub <br/>
+Operating temperature: from -20 to +55 °C <br/>
+Power supply: battery type CR123A <br/>
+Battery life: 10 years"," 
+Hareket algılama: 10 m'ye kadar <br/>
+Hareket algılama açısı: 88,5 dereceye kadar <br/>
+Çalışma frekansı: 868,7 MHz <br/>
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
+Çalışma sıcaklığı: -20 ila +55 ° C <br/>
+Güç kaynağı: pil tipi CR123A <br/>
+Pil ömrü: 10 yıl",Livi MS motion sensor manual,The manual page of the Livi MS passive optoelectronic infrared motion sensor,mshelp
+"Livi MSW <br/>
+curtain motion sensor","Livi Kablosuz Perde Tipi Dedektör<br/>
+",lmsw,"A wireless passive infrared curtain-type sensor forms a virtual wall and detects intrusions through doors and windows into a guarded site. Battery discharge, connection loss, device tampering notifications.","Kablosuz pasif kızılötesi perde tipi sensör, sanal bir duvar oluşturur ve kapılar ve pencerelerden korunan bir sahaya girme girişlerini algılar. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Motion detection: up to 12 m
+Motion detection bandwidth: up to 2,2 m
+Operating frequency: 868.7 MHz
+Operating range: up to 1 km from Livi Smart Hub
+Operating temperature: from -20 to +55 °C
+Power supply: battery type CR123А
+Battery life: 10 years","Hareket algılama: 12 m'ye kadar
+Hareket algılama bant genişliği: 2,2 m'ye kadar
+Çalışma frekansı: 868.7 MHz
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar
+Çalışma sıcaklığı: -20 ila +55 ° C arası
+Güç kaynağı: pil tipi CR123А
+Pil ömrü: 10 yıl",Livi MSW curtain type motion sensor manual,The manual page of Livi MSW passive optoelectronic infrared curtain type motion sensor,mswhelp
+Livi FS smoke sensor,Livi FS Kablosuz Duman Dedektörü,fs,"A wireless smoke sensor uses the scattered light method and helps to detect a fire early. The sensor has a preliminary smoker warning mode. The self-testing system of the dust level will notify the user when the sensor needs to be cleaned. Protected against false alarms caused by bright light or insects. Battery discharge, connection loss, device tampering notifications.","Kablosuz duman dedektörü dağınık ışık yöntemini kullanır ve yangının erken tespit edilmesine yardımcı olur. Sensörün ön alarm uyarı modu vardır. Toz seviyesinin kendi kendini test eden sistemi, sensörün temizlenmesi gerektiğinde kullanıcıyı bilgilendirecektir. Parlak ışık veya böceklerin neden olduğu yanlış alarmlara karşı korunur. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz
+Operating range: up to 1 km from Livi Smart Hub
+Operating temperature: from -20 to +55 °C
+Main power supply: battery type CR123A
+Backup power supply: battery type CR2032
+Battery life: 10 years","Çalışma frekansı: 868.7 MHz
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar
+Çalışma sıcaklığı: -20 ila +55 ° C arası
+Ana güç kaynağı: pil tipi CR123A
+Yedek güç kaynağı: pil tipi CR2032
+Pil ömrü: 10 yıl",Livi FS smoke sensor manual,The Livi FS smoke sensor  is designed for early fire detection. The sensor operates according to the scattered light method.,fshelp
+Livi CS opening sensor,Livi CS Kablosuz Manyetik Kontak,cs,"A wireless opening sensor detects an intrusion into a guarded site. The sensor controls the opening and closing of doors, windows, shutters, hatches or gates. Livi CS consists of a magnetically operated switch and a magnet. An external wired reed switch can be connected to the sensor. Battery discharge, connection loss, device tampering notifications.","Kablosuz manyetik kontak, korunan bir sahaya izinsiz giriş algılar. Sensör, kapıların, pencerelerin, panjurların, kapakların veya kapıların açılmasını ve kapanmasını kontrol eder. Livi CS manyetik olarak çalıştırılan bir anahtar ve bir mıknatıstan oluşur. Sensöre harici bir kablolu kontak anahtarı bağlanabilir. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz <br/>
+Operating range: up to 1 km from Livi Smart Hub <br/>
+Operating temperature: from -20 to +55 °C <br/>
+Power supply: battery type CR123A <br/>
+Battery life: 10 years","Çalışma frekansı: 868.7 MHz <br/>
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
+Çalışma sıcaklığı: -20 ila +55 ° C arası <br/>
+Güç kaynağı: pil tipi CR123A <br/>
+Pil ömrü: 10 yıl",Livi CS opening sensor manual,The manual page of the Livi CS opening sensor,cshelp
+Livi GS glass break sensor,Livi GS Kablosuz Cam Kırılma Dedektörü,gs,"A wireless acoustic glass break sensor detects the shattering of glass and glass structures. An electret microphone is used to capture the sound of glass breaking into a guarded site. An external wired reed switch can be connected to the sensor. Battery discharge, connection loss, device tampering notifications.","Kablosuz akustik cam kırılma sensörü, cam ve cam yapıların parçalanmasını algılar. Bir elektret mikrofonu, korunan bir sahaya giren camın sesini yakalamak için kullanılır. Sensöre harici bir kablolu kontak anahtarı bağlanabilir. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz <br/>
+Operating range: up to 1 km from Livi Smart Hub <br/>
+Operating temperature: from -20 to +55 °C <br/>
+Power supply: battery type CR123A <br/>
+Battery life: 10 years","Çalışma frekansı: 868.7 MHz <br/>
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
+Çalışma sıcaklığı: -20 ila +55 ° C arası <br/>
+Güç kaynağı: pil tipi CR123A <br/>
+Pil ömrü: 10 yıl",Livi GS glass break sensor manual,The manual page of Livi GS acoustic glass break sensor,gshelp
+Livi VS impact sensor,Livi VS Kablosuz Darbe Dedektörü,vs,"A wireless impact sensor with a high-precision accelerometer determines the displacement or impact on the guarded surface. The sensor can detect the signs of cutting, drilling, or breaking glass, metal, brick, and reinforced concrete structures. Battery discharge, connection loss, device tampering notifications.","Yüksek hassasiyetli ivmeölçere sahip kablosuz darbe sensörü, korunan yüzey üzerindeki yer değiştirmeyi veya darbeyi belirler. Sensör, cam, metal, tuğla ve betonarme yapıların kesme, delme veya kırılma belirtilerini algılayabilir. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz <br/>
+Operating range: up to 1 km from Livi Smart Hub <br/>
+Operating temperature: from -20 to +55 °C <br/>
+Power supply: battery type CR123A <br/>
+Battery life: 10 years","Çalışma frekansı: 868.7 MHz <br/>
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
+Çalışma sıcaklığı: -20 ila +55 ° C arası <br/>
+Güç kaynağı: pil tipi CR123A <br/>
+Pil ömrü: 10 yıl",Livi VS impact sensor manual,The manual page of the Livi VS impact sensor,vshelp
+Livi RFID security control panel,Livi RFID Kontrol Paneli,rfid,"Wireless security control panel identifies users reading ISO 15693 and ISO 14443А RFID-tags. The panel allows users to arm and disarm the security alarm without using the Livicom mobile app. Battery discharge, connection loss, device tampering notifications.","Kablosuz güvenlik kontrol paneli, ISO 15693 ve ISO 14443А RFID-etiketlerini okuyan kullanıcıları tanımlar. Panel, kullanıcıların Livicom mobil uygulamasını kullanmadan güvenlik alarmını kurmasına ve açmasına olanak tanır. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz
+Operating range: up to 1 km from Livi Smart Hub
+Operating temperature: from -20 to +55 °C
+Power supply: battery type CR123A
+Battery life: 10 years","Çalışma frekansı: 868.7 MHz
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar
+Çalışma sıcaklığı: -20 ila +55 ° C arası
+Güç kaynağı: pil tipi CR123A
+Pil ömrü: 10 yıl",Livi RFID security control panel manual,The manual page of the Livi RFID security control panel,rfidhelp
+Livi Key Fob control panel,Livi Kumanda,kf,"A wireless portable control panel can arm and disarm the security alarm system, launch scripts, and send an alarm alert. The panel is designed as a key fob and has four programmable buttons.","Kumanda, güvenlik alarm sistemini kurup açabilir, komut dosyalarını başlatabilir ve bir alarm uyarısı gönderebilir. Panel anahtarlık olarak tasarlanmıştır ve dört adet programlanabilir düğmeye sahiptir.","Operating frequency: 868.7 MHz
+Operating range: up to 1 km from Livi Smart Hub
+Operating temperature: from -20 to +55 °C
+Power supply: battery type CR2032
+Battery life: over 10 years","Çalışma frekansı: 868.7 MHz
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar
+Çalışma sıcaklığı: -20 ila +55 ° C arası
+Güç kaynağı: pil tipi CR2032
+Pil ömrü: 10 yıldan fazla",Livi Key Fob control panel manual,The manual page of  the Livi Key Fob control panel,kfhelp
+Livi Socket,Livi Akıllı Priz,socket,"A wireless smart socket can remotely control electrical appliances with powers of up to 3.5 kW. It turns on/off the power supply, measures instant voltage and power consumption. The device can be used as a thermostat to control electric heaters. Build-in temperature and over-voltage protection. Connection loss notifications.","Kablosuz akıllı soket, 3,5 kW'a kadar güçte olan elektrikli cihazları uzaktan kontrol edebilir. Güç kaynağını açar/kapatır, anlık voltaj ve güç tüketimini ölçer. Cihaz elektrikli ısıtıcıları kontrol etmek için bir termostat olarak kullanılabilir. Dahili sıcaklık ve aşırı gerilim koruması. Bağlantı kaybı bildirimleri.","Operating frequency: 868.7 MHz <br/>
+Operating range: up to 1 km from Livi Smart Hub <br/>
+Operating temperature: from -20 to +55 °C <br/>
+Handled power: up to 3.5 kW <br/>
+Socket standard: EU VDE","Çalışma frekansı: 868.7 MHz <br/>
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
+Çalışma sıcaklığı: -20 ila +55 ° C arası <br/>
+Elleçlenen güç: 3,5 kW'a kadar <br/>
+Soket standardı: EU VDE",Livi Socket smart socket manual,The manual page of  the Livi Socket,sockethelp
+"Livi Relay 12/24 <br />
+«dry contact» relay","Livi Kuru Kontak Röle 12/24 <br />
+«dry contact» relay",reldry,"Wireless dry contact relay remotely controls electrical appliances, gate drives, door locks with powers of up to 3.5 kW. Livi Relay 12/24 has a thermostat mode and pulse control mode with a customizable pulse duration.","Kablosuz kuru kontak rölesi elektrikli cihazları, kapı motorlarını, 3,5 kW'a kadar güçte kapı kilitlerini uzaktan kontrol eder. Livi Relay 12/24 özelleştirilebilir darbe süresi ile bir termostat modu ve darbe kontrol moduna sahiptir.","Operating frequency: 868.7 MHz <br/>
+Operating range: up to 1 km from Livi Smart Hub <br/>
+Supply voltage: 10 – 30 V DC <br/>
+Resistive load: 16 A / 250 V AC, 10 A / 30 V DC <br/>
+Inductive capacitive load: 8 A / 250 V AC, 10 A / 30 V DC <br/>
+Operating temperature: from -20 to +55 °C","Çalışma frekansı: 868.7 MHz <br/>
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
+Besleme gerilimi: 10 - 30 V DC <br/>
+Rezistif yük: 16 A / 250 V AC, 10 A / 30 V DC <br/>
+Endüktif kapasitif yük: 8 A / 250 V AC, 10 A / 30 V DC <br/>
+Çalışma sıcaklığı: -20 ila +55 ° C arası",,,
+Livi Relay,Livi Röle,rel,Wireless power relay with 1 relay output remotely controls electrical appliances with powers of up to 3.5 kW.,"1 röle çıkışlı kablosuz güç rölesi 3,5 kW'a kadar güçte elektrikli cihazları uzaktan kontrol eder.","Operating frequency: 868.7 MHz
+Operating range: up to 1 km from Livi Smart Hub
+Operating temperature: from -20 to +55 °C
+Supply voltage: 10 – 30 V DC
+Switched current: up to 16 A
+Handled power: up to 3.5 kW","Çalışma frekansı: 868.7 MHz
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar
+Çalışma sıcaklığı: -20 ila +55 ° C arası
+Besleme gerilimi: 10 - 30 V DC
+Anahtarlı akım: 16 A'ya kadar
+Elleçlenen güç: 3,5 kW'a kadar",,,
+Livi Light Control unit,Livi Işık Kontrol Ünitesi,llc,A wireless light control unit controls lighting via the Livicom mobile app and light switches. The device has two dry contact inputs for light switches and two control outputs. Two control outputs can be connected to two separate lighting lines or one SPDT switch (for turning a light on or off from two locations). Only incandescent and LED lamps of 10 watts or more can be used.,"Kablosuz ışık kontrol ünitesi, Livicom mobil uygulaması ve lamba anahtarları aracılığıyla aydınlatmayı kontrol eder. Cihaz, ışık anahtarları için iki kuru kontak girişine ve iki kontrol çıkışına sahiptir. İki kontrol çıkışı, iki ayrı aydınlatma hattına veya bir vaviyen anahtarına bağlanabilir (bir ışığı iki konumdan açmak veya kapatmak için). Sadece 10 watt veya daha fazla akkor ve LED lambalar kullanılabilir.","Operating frequency: 868.7 MHz <br/>
+Operating range: up to 1 km from Livi Smart Hub  <br/>
+Operating temperature: from -20 to +55 °C","Çalışma frekansı: 868.7 MHz <br/>
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
+Çalışma sıcaklığı: -20 ila +55 ° C arası",,,
+Livi Roller Shutter unit,Livi Panjur Rölesi,rsu,"Livi Roller Shutter unit controls three-phase electric drives of roller shutters, curtains, blinds, or gates via the Livicom mobile app and switches. The device has 2 inputs for roller control switches and 2 relay outputs for the motion direction (upwards/downwards).","Livi Panjur rölesi, Livicom mobil uygulaması ve anahtarlar aracılığıyla panjurlar, perdeler veya kapıların üç aşamalı elektrikli motorlarını kontrol eder. Cihaz, panjur kontrol anahtarları için 2 giriş ve hareket yönü için 2 röle çıkışı (yukarı/aşağı) vardır.","Operating frequency: 868.7 MHz <br/>
+Operating range: up to 1 km from Livi Smart Hub <br/>
+Operating temperature: from -20 to +55 ° <br/>
+Maximum load current: 1.7 A (cosϕ ≠ 1) <br/>","Çalışma frekansı: 868.7 MHz <br/>
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
+Çalışma sıcaklığı: -20 ila +55 ° arası <br/>
+Maksimum yük akımı: 1,7 A (cosϕ ≠ 1) <br/>",,,
+Livi Water Control unit,Livi Water Control unit,wcu,"Wireless water leakage protection unit cuts off the water when leakage is detected with the help of additional ball valves with electrical drives. Two wired leak sensors can be placed in separate areas of potential flooding. Livi Water Control can collect data from the pulse outputs of two household water meters. Battery discharge, connection loss, device tampering notifications.","Kablosuz su kaçağı koruma ünitesi, elektrik motorlu ek küresel vanalar yardımıyla sızıntı tespit edildiğinde suyu keser. İki kablolu sızıntı sensörü, potansiyel su baskınının ayrı alanlarına yerleştirilebilir. Livi Su Kontrolü, iki su sayacının pulse çıkışlarından veri toplayabilir. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz <br/>
+Operating range: up to 1 km from Livi Smart Hub <br/>
+Operating temperature: from 0 to +55 °C <br/>
+Power supply: 2 batteries type CR123A <br/>
+Optional power supply: 220 V through a power adapter 5 V, 1 A <br/>
+Battery life: over 10 years","Çalışma frekansı: 868.7 MHz <br/>
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
+Çalışma sıcaklığı: 0 ile +55 ° C arası <br/>
+Güç kaynağı: 2 pil tipi CR123A <br/>
+İsteğe bağlı güç kaynağı: 5 V, 1 A güç adaptörü aracılığıyla 220 V <br/>
+Pil ömrü: 10 yıldan fazla",,,
+Livi LS water leak sensor,Livi LS Kablosuz Su Baskın Dedektörü,lwls,"A wireless water leak sensor has 2 external wired leak sensors for 2 separate areas of potential flooding. External leak sensors are protected against false alarms caused by splashes and wet cleaning. Battery discharge, connection loss, device tampering notifications.","Kablosuz su baskın sensörü, 2 ayrı potansiyel su baskını alanı için 2 harici kablolu sızıntı sensörüne sahiptir. Harici sızıntı sensörleri, sıçrama ve ıslak temizlemeden kaynaklanan yanlış alarmlara karşı korunur. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz <br/>
+Operating range: up to 1 km from Livi Smart Hub <br/>
+Operating temperature: from 0 to +55 °C <br/>
+Power supply: battery type CR123A <br/>
+Battery life: 10 years","Çalışma frekansı: 868.7 MHz <br/>
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
+Çalışma sıcaklığı: 0 ile +55 ° C arası <br/>
+Güç kaynağı: pil tipi CR123A <br/>
+Pil ömrü: 10 yıl <br/>",,,
+Livi TS temperature sensor,Livi TS Kablosuz Sıcaklık Sensörü,ts,"Wireless temperature sensor measures temperature at the installation location. Measurement can be done not only by the built-in temperature sensor but also by 2 additional external DS18B20 wired temperature sensors connected to Livi TS. Battery discharge, connection loss, device tampering notifications.","Kablosuz sıcaklık sensörü, kurulum yerindeki sıcaklığı ölçer. Ölçüm sadece dahili sıcaklık sensörü ile değil, aynı zamanda Livi TS'ye bağlı 2 adet harici DS18B20 kablolu sıcaklık sensörü ile de yapılabilir. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz <br/>
+Operating range: up to 1 km from Livi Smart Hub <br/>
+Operating temperature: from -20 to +55 °C <br/>
+Power supply: battery type CR123A <br/>
+Battery life: over 10 years <br/>
+Measuring range of the built-in sensor: from -20 to +55 °C <br/>
+Measuring range of external sensors: from -45 to +85 °С <br/>","Çalışma frekansı: 868.7 MHz <br/>
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
+Çalışma sıcaklığı: -20 ila +55 ° C arası <br/>
+Güç kaynağı: pil tipi CR123A <br/>
+Pil ömrü: 10 yıldan fazla <br/>
+Yerleşik sensörün ölçüm aralığı: -20 ila +55 ° C <br/>
+Harici sensörlerin ölçüm aralığı: -45 ila +85 ° С arası",Livi TS temperature sensor manual,The manual page of  Livi TS temperature sensor,tshelp
+"Livi RC <br />
+resource consumption sensor","Livi RC <br />
+Kablosuz Kaynak Tüketim Sensörü",rcrsc,"Wireless resource consumption sensor can measure the consumption of electricity, hot and cold water. The device counts pulses generated at the output of the meter and can collect data from two water meters or one electricity meter. Automatically transfers data every 2 minutes. Battery discharge, connection loss, device tampering notifications.","Kablosuz kaynak tüketimi sensörü, elektrik, sıcak ve soğuk su tüketimini ölçebilir. Cihaz, sayacın çıkışında üretilen pulseleri sayar ve iki su sayacı veya bir elektrik sayacı veri toplayabilir. Verileri her 2 dakikada bir otomatik olarak aktarır. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz
+Operating range: up to 1 km from Livi Smart Hub
+Operating temperature: from -20 to +55 °C
+Power supply: battery type CR123A
+Battery life: over 10 years","Çalışma frekansı: 868.7 MHz
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar
+Çalışma sıcaklığı: -20 ila +55 ° C arası
+Güç kaynağı: pil tipi CR123A
+Pil ömrü: 10 yıldan fazla",,,
+Livi US universal sensor,Livi US Universal Sensör,usus,"A wireless universal sensor integrates third-party wired dry contact type security, fire, emergency or technological sensors into the Livicom system. One device can be connected to 2 outdoor security sensors, gas leakage sensors, threshold pressure sensors, level sensors, etc. Battery discharge, connection loss, device tampering notifications.","Kablosuz üniversal sensör, üçüncü taraf kablolu kuru kontak tipi güvenlik, yangın, acil durum veya teknolojik sensörleri Livicom sistemine entegre eder. Bir cihaz 2 dış güvenlik sensörüne, gaz kaçak sensörlerine, eşik basınç sensörlerine, seviye sensörlerine vb. bağlanabilir. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz
+Operating range: up to 1 km from Livi Smart Hub
+Operating temperature: from -20 to +55 °C
+Power supply: battery type CR123A
+Battery life: over 10 year","Çalışma frekansı: 868.7 MHz
+Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar
+Çalışma sıcaklığı: -20 ila +55 ° C arası
+Güç kaynağı: pil tipi CR123A
+Pil ömrü: 10 yıldan fazla",,,
+Livi Siren,Livi Siren,lsiren,"A wireless siren is designed for sound notification in case of emergency (robbery, fire, accident). The external LED indicator of the security alarm state can be connected. Customizable duration and loudness of the sound notification. Sound confirmation of enabling and disabling the guard. Battery discharge, connection loss, device tampering notifications.","Acil durumlarda (soygun, yangın, kaza) sesli bildirim için kablosuz siren tasarlanmıştır. Güvenlik alarmı durumunun harici LED göstergesi bağlanabilir. Ses bildiriminin özelleştirilebilir (süresi ve yüksekliği). Korumayı etkinleştirmenin ve devre dışı bırakmanın sesli onayı. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.",Operating frequency: 868.7 MHzOperating range: up to 1 km from Livi Smart HubOperating temperature: from -20 to +55 °CAcoustic power: up to 105 dB at a distance of 1 mMain power supply: 2 batteries type CR123ABattery life: over 10 years,"Çalışma frekansı: 868,7 MHz Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar Çalışma sıcaklığı: -20 ila +55 ° C Akustik güç: 1 m mesafede 105 dB'ye kadar Ana güç kaynağı: 2 pil tipi CR123A Pil ömrü: 10 yıldan fazla
+Ekran okuyucu desteği etkinleştirildi.",,,
+Livi Tag RFID-tag,Livi RFID Anahtarlık,ltrfid,RFID tag is used with security control panel Livi RFID. The tag supports standard 14443А.,"Güvenlik kontrol paneli Livi RFID ile birlikte RFID etiketi kullanılmaktadır. Etiket, standart 14443А'yı destekler. ",,,,,

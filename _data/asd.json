@@ -1,0 +1,8 @@
+{
+    "@type": "WebSite",
+    "headline": "Smart Home Systems - Automate Home Livicom Turkey",
+    "url": "http://localhost:4000/",
+    "image": "http://localhost:4000/static/img/Livicom_main.jpg",
+    "description": "Livicom - akıllı eviniz! Senaryolar ve programları kullanarak güvenliği, ev cihazlarını ve mühendislik sistemlerini yönetin",
+    "@context": "https://schema.org"
+}
