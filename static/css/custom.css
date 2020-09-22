@@ -7,7 +7,8 @@ a {cursor: pointer !important;}
 .download-link {
     font-family: 'Roboto', Arial, sans-serif !important;
     line-height: 1.7 !important;
-    font-weight: 300 !important;
+    font-weight: 400 !important;
+    color:#d1810f;
 }
 
 .tn-elem__1429531561533720293314 a, .tn-elem__1429532261534750487787 a{ padding:8px 8px; font-weight: bold !important;}
