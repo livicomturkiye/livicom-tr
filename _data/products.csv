@@ -109,7 +109,7 @@ Handled power: up to 3.5 kW <br/>
 Socket standard: EU VDE","Çalışma frekansı: 868.7 MHz <br/>
 Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
 Çalışma sıcaklığı: -20 ila +55 ° C arası <br/>
-Elleçlenen güç: 3,5 kW'a kadar <br/>
+Desteklenen güç: 3,5 kW'a kadar <br/>
 Soket standardı: EU VDE",Livi Socket smart socket manual,The manual page of  the Livi Socket,sockethelp
 "Livi Relay 12/24 <br />
 «dry contact» relay",Livi Kuru Kontak Röle 12/24 <br />,reldry,"Wireless dry contact relay remotely controls electrical appliances, gate drives, door locks with powers of up to 3.5 kW. Livi Relay 12/24 has a thermostat mode and pulse control mode with a customizable pulse duration.","Kablosuz kuru kontak rölesi elektrikli cihazları, kapı motorlarını, 3,5 kW'a kadar güçte kapı kilitlerini uzaktan kontrol eder. Livi Relay 12/24 özelleştirilebilir darbe süresi ile bir termostat modu ve darbe kontrol moduna sahiptir.","Operating frequency: 868.7 MHz <br/>
@@ -133,7 +133,7 @@ Handled power: up to 3.5 kW","Çalışma frekansı: 868.7 MHz
 Çalışma sıcaklığı: -20 ila +55 ° C arası
 Besleme gerilimi: 10 - 30 V DC
 Anahtarlı akım: 16 A'ya kadar
-Elleçlenen güç: 3,5 kW'a kadar",,,
+Desteklenen güç: 3,5 kW'a kadar",,,
 Livi Light Control unit,Livi Işık Kontrol Ünitesi,llc,A wireless light control unit controls lighting via the Livicom mobile app and light switches. The device has two dry contact inputs for light switches and two control outputs. Two control outputs can be connected to two separate lighting lines or one SPDT switch (for turning a light on or off from two locations). Only incandescent and LED lamps of 10 watts or more can be used.,"Kablosuz ışık kontrol ünitesi, Livicom mobil uygulaması ve lamba anahtarları aracılığıyla aydınlatmayı kontrol eder. Cihaz, ışık anahtarları için iki kuru kontak girişine ve iki kontrol çıkışına sahiptir. İki kontrol çıkışı, iki ayrı aydınlatma hattına veya bir vaviyen anahtarına bağlanabilir (bir ışığı iki konumdan açmak veya kapatmak için). Sadece 10 watt veya daha fazla akkor ve LED lambalar kullanılabilir.","Operating frequency: 868.7 MHz <br/>
 Operating range: up to 1 km from Livi Smart Hub  <br/>
 Operating temperature: from -20 to +55 °C","Çalışma frekansı: 868.7 MHz <br/>
@@ -146,7 +146,7 @@ Maximum load current: 1.7 A (cosϕ ≠ 1) <br/>","Çalışma frekansı: 868.7 MH
 Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar <br/>
 Çalışma sıcaklığı: -20 ila +55 ° arası <br/>
 Maksimum yük akımı: 1,7 A (cosϕ ≠ 1) <br/>",,,
-Livi Water Control unit,Livi Water Control unit,wcu,"Wireless water leakage protection unit cuts off the water when leakage is detected with the help of additional ball valves with electrical drives. Two wired leak sensors can be placed in separate areas of potential flooding. Livi Water Control can collect data from the pulse outputs of two household water meters. Battery discharge, connection loss, device tampering notifications.","Kablosuz su kaçağı koruma ünitesi, elektrik motorlu ek küresel vanalar yardımıyla sızıntı tespit edildiğinde suyu keser. İki kablolu sızıntı sensörü, potansiyel su baskınının ayrı alanlarına yerleştirilebilir. Livi Su Kontrolü, iki su sayacının pulse çıkışlarından veri toplayabilir. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz <br/>
+Livi Water Control unit,Livi Su Kontrol Ünitesi,wcu,"Wireless water leakage protection unit cuts off the water when leakage is detected with the help of additional ball valves with electrical drives. Two wired leak sensors can be placed in separate areas of potential flooding. Livi Water Control can collect data from the pulse outputs of two household water meters. Battery discharge, connection loss, device tampering notifications.","Kablosuz su kaçağı koruma ünitesi, elektrik motorlu ek küresel vanalar yardımıyla sızıntı tespit edildiğinde suyu keser. İki kablolu sızıntı sensörü, potansiyel su baskınının ayrı alanlarına yerleştirilebilir. Livi Su Kontrolü, iki su sayacının pulse çıkışlarından veri toplayabilir. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.","Operating frequency: 868.7 MHz <br/>
 Operating range: up to 1 km from Livi Smart Hub <br/>
 Operating temperature: from 0 to +55 °C <br/>
 Power supply: 2 batteries type CR123A <br/>
@@ -200,5 +200,5 @@ Battery life: over 10 year","Çalışma frekansı: 868.7 MHz
 Güç kaynağı: pil tipi CR123A
 Pil ömrü: 10 yıldan fazla",,,
 Livi Siren,Livi Siren,lsiren,"A wireless siren is designed for sound notification in case of emergency (robbery, fire, accident). The external LED indicator of the security alarm state can be connected. Customizable duration and loudness of the sound notification. Sound confirmation of enabling and disabling the guard. Battery discharge, connection loss, device tampering notifications.","Acil durumlarda (soygun, yangın, kaza) sesli bildirim için kablosuz siren tasarlanmıştır. Güvenlik alarmı durumunun harici LED göstergesi bağlanabilir. Ses bildiriminin özelleştirilebilir (süresi ve yüksekliği). Korumayı etkinleştirmenin ve devre dışı bırakmanın sesli onayı. Düşük pil, bağlantı kaybı, cihaz kurcalama bildirimleri.",Operating frequency: 868.7 MHzOperating range: up to 1 km from Livi Smart HubOperating temperature: from -20 to +55 °CAcoustic power: up to 105 dB at a distance of 1 mMain power supply: 2 batteries type CR123ABattery life: over 10 years,"Çalışma frekansı: 868,7 MHz Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar Çalışma sıcaklığı: -20 ila +55 ° C Akustik güç: 1 m mesafede 105 dB'ye kadar Ana güç kaynağı: 2 pil tipi CR123A Pil ömrü: 10 yıldan fazla
-Ekran okuyucu desteği etkinleştirildi.",,,
+",,,
 Livi Tag RFID-tag,Livi RFID Anahtarlık,ltrfid,RFID tag is used with security control panel Livi RFID. The tag supports standard 14443А.,"Güvenlik kontrol paneli Livi RFID ile birlikte RFID etiketi kullanılmaktadır. Etiket, standart 14443А'yı destekler. ",,,,,
