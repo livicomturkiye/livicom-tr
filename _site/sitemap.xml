@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/akilli-ev-sistemleri-uygulamasi.html</loc>
+<loc>/akilli-ev-sistemleri-uygulamasi.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/akilli-ev-teknolojisi.html</loc>
+<loc>/akilli-ev-teknolojisi.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/alarm-ve-otomasyon-sistemleri.html</loc>
+<loc>/alarm-ve-otomasyon-sistemleri.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/hakkimizda.html</loc>
+<loc>/hakkimizda.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>/</loc>
 </url>
 </urlset>
