@@ -112,8 +112,7 @@ Socket standard: EU VDE","Çalışma frekansı: 868.7 MHz <br/>
 Elleçlenen güç: 3,5 kW'a kadar <br/>
 Soket standardı: EU VDE",Livi Socket smart socket manual,The manual page of  the Livi Socket,sockethelp
 "Livi Relay 12/24 <br />
-«dry contact» relay","Livi Kuru Kontak Röle 12/24 <br />
-«dry contact» relay",reldry,"Wireless dry contact relay remotely controls electrical appliances, gate drives, door locks with powers of up to 3.5 kW. Livi Relay 12/24 has a thermostat mode and pulse control mode with a customizable pulse duration.","Kablosuz kuru kontak rölesi elektrikli cihazları, kapı motorlarını, 3,5 kW'a kadar güçte kapı kilitlerini uzaktan kontrol eder. Livi Relay 12/24 özelleştirilebilir darbe süresi ile bir termostat modu ve darbe kontrol moduna sahiptir.","Operating frequency: 868.7 MHz <br/>
+«dry contact» relay",Livi Kuru Kontak Röle 12/24 <br />,reldry,"Wireless dry contact relay remotely controls electrical appliances, gate drives, door locks with powers of up to 3.5 kW. Livi Relay 12/24 has a thermostat mode and pulse control mode with a customizable pulse duration.","Kablosuz kuru kontak rölesi elektrikli cihazları, kapı motorlarını, 3,5 kW'a kadar güçte kapı kilitlerini uzaktan kontrol eder. Livi Relay 12/24 özelleştirilebilir darbe süresi ile bir termostat modu ve darbe kontrol moduna sahiptir.","Operating frequency: 868.7 MHz <br/>
 Operating range: up to 1 km from Livi Smart Hub <br/>
 Supply voltage: 10 – 30 V DC <br/>
 Resistive load: 16 A / 250 V AC, 10 A / 30 V DC <br/>
