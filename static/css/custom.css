@@ -8,9 +8,9 @@ a {cursor: pointer !important;}
     font-family: 'Roboto', Arial, sans-serif !important;
     line-height: 1.7 !important;
     font-weight: 400 !important;
-    color:#d1810f;
+    color: #248f54 !important;
 }
-
+a.manual {color:#d1810f !important;}
 .tn-elem__1429531561533720293314 a, .tn-elem__1429532261534750487787 a{ padding:8px 8px; font-weight: bold !important;}
 .tn-elem__1429531561533721051953 div.tn-atom, .tn-elem__1429532491533891479302 .tn-atom {color:rgba(0,0,0,0.9) !important;}
 #rec148288196 div.tn-atom {
