@@ -30,6 +30,10 @@
     <script src="static/js/tilda-blocks-2.7.js"></script>
     {% seo %}
 
+    <!-- NETLIFY CMS -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168136456-1"></script>
     <script>
@@ -73,5 +77,19 @@
       <script defer src="static/js/tilda-zoom-2.0.min.js" ></script>
       <script defer src="static/js/tilda-animation-sbs-1.0.min.js" ></script>
       <script defer src="static/js/tilda-menusub-1.0.min.js" ></script>
+      
+      <!-- Netlify CMS-->
+      <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+
 </body>
 </html>

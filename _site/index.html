@@ -35,10 +35,16 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Livicom Akıllı ev sistemleri ile evinizi akıllı otomasyon" />
 <meta property="og:description" content="Livicom Akıllı ev sistemleri ile evinizi akıllı otomasyon" />
-<meta property="og:image" content="/static/img/Livicom_main.jpg" />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:image" content="http://localhost:4000/static/img/Livicom_main.jpg" />
 <script type="application/ld+json">
-{"@type":"WebSite","image":"/static/img/Livicom_main.jpg","headline":"Akıllı ev sistemleri ve Alarm Otomasyon Livicom Türkiye","description":"Livicom Akıllı ev sistemleri ile evinizi akıllı otomasyon","url":"/","@context":"https://schema.org"}</script>
+{"@type":"WebSite","image":"http://localhost:4000/static/img/Livicom_main.jpg","headline":"Akıllı ev sistemleri ve Alarm Otomasyon Livicom Türkiye","description":"Livicom Akıllı ev sistemleri ile evinizi akıllı otomasyon","url":"http://localhost:4000/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
+
+
+    <!-- NETLIFY CMS -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -819,5 +825,19 @@ koruma</h3>
       <script defer src="static/js/tilda-zoom-2.0.min.js" ></script>
       <script defer src="static/js/tilda-animation-sbs-1.0.min.js" ></script>
       <script defer src="static/js/tilda-menusub-1.0.min.js" ></script>
+      
+      <!-- Netlify CMS-->
+      <script>
+        if (window.netlifyIdentity) {
+          window.netlifyIdentity.on("init", user => {
+            if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                document.location.href = "/admin/";
+              });
+            }
+          });
+        }
+      </script>
+
 </body>
 </html>
