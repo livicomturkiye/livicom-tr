@@ -5,15 +5,15 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 media_folder: 'assets/uploads'
 collections:
-  - name: 'manual'
-    label: 'Manual'
-    folder: 'manual/'
-    create: true
-    slug: ':basename'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+- name: 'pages'
+  label: 'Pages'
+  editor:
+    preview: false
+  files:
+    - label: 'Hub'
+      name: 'about'
+      file: 'manual/hubhelp.html'
+      fields:
+        - { label: 'Title', name: 'title', widget: 'hidden', default: 'default' }
+        - { label: 'Layout', name: 'title', widget: 'hidden', default: 'default' }
+        - { label: 'Body', name: 'body', widget: 'markdown' }
