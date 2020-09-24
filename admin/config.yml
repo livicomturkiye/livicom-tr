@@ -15,5 +15,5 @@ collections:
       file: 'manual/hubhelp.html'
       fields:
         - { label: 'Title', name: 'title', widget: 'hidden', default: 'default' }
-        - { label: 'Layout', name: 'title', widget: 'hidden', default: 'default' }
+        - { label: 'Layout', name: 'Layout', widget: 'hidden', default: 'default' }
         - { label: 'Body', name: 'body', widget: 'markdown' }
