@@ -16,6 +16,60 @@ a.manual {color:#d1810f !important;}
 
 footer a, .foo a {color:white;}
 
+
+@media only screen and (max-width: 1120px) and (min-width: 981px)  {
+  .t-menu__link-item {font-size:14px !important;}
+  .t228__list_item { padding: 0 6px;}
+}
+
+/* ILETISIM */
+
+div.iletisim-page {
+  box-sizing: border-box;
+  width:100%;
+  position: relative;
+  padding-top:65px;
+  max-width: 100% !important;
+  overflow: hidden;
+  height:auto;
+  background-color: #f6f6f6;
+  display:flex;
+  padding:200px 0 0 0;
+  flex-wrap: wrap;
+}
+.contact-wrapper { width: 100%; padding:0 64px; display: flex; flex-direction: row; flex-wrap: nowrap; max-width: 100%;position: relative; }
+.contact-graphic {width: 40%;height:auto;}
+.contact-graphic img {width: 100%;}
+.contact-info {width:50%; display:flex; position: relative; flex-direction: column; overflow: hidden;}
+.contact-shape { width: 100%;position: relative;}
+
+
+
+.custom-shape-divider-bottom-1602094682 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1602094682 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 79px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1602094682 .shape-fill {
+  fill: #009889;
+}
+
+
+/*------------------------*/
+
 #rec148288196 div.tn-atom {
     color: #222222;
     font-size: 16px;
