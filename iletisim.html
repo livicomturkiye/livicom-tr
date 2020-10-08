@@ -41,6 +41,7 @@ image: static/img/prn_7363.jpg
 </div>
 
     <script>
+        var form = document.getElementById("email-form")
         var checkbox = document.getElementById("checkbox")
         var button = document.getElementById("submit-button")
 
@@ -50,6 +51,7 @@ image: static/img/prn_7363.jpg
             var $form = $(this);
             $.post($form.attr("action"), $form.serialize()).then(function() {
                 alert("Thank you!");
+                form.style.display = "none";
             });
         });
 
