@@ -43,7 +43,9 @@ div.iletisim-page {
 .contact-info {width:50%; display:flex; position: relative; flex-direction: column; overflow: hidden;}
 .contact-shape { width: 100%;position: relative;}
 
-
+input:disabled:hover {
+  background-color: gray;
+}
 
 .custom-shape-divider-bottom-1602094682 {
   position: absolute;
