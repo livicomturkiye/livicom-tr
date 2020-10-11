@@ -42,7 +42,7 @@
 <meta property="og:url" content="http://localhost:4000/iletisim.html" />
 <meta property="og:image" content="http://localhost:4000/static/img/prn_7363.jpg" />
 <script type="application/ld+json">
-{"@type":"WebPage","image":"http://localhost:4000/static/img/prn_7363.jpg","headline":"Livicom Türkiye İletişim","description":"Livicom Türkiye’nin iletişim sayfası.","url":"http://localhost:4000/iletisim.html","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"http://localhost:4000/iletisim.html","image":"http://localhost:4000/static/img/prn_7363.jpg","headline":"Livicom Türkiye İletişim","description":"Livicom Türkiye’nin iletişim sayfası.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -324,6 +324,7 @@
 </div>
 
     <script>
+        var form = document.getElementById("email-form")
         var checkbox = document.getElementById("checkbox")
         var button = document.getElementById("submit-button")
 
@@ -332,7 +333,8 @@
 
             var $form = $(this);
             $.post($form.attr("action"), $form.serialize()).then(function() {
-                alert("Thank you!");
+                alert("Mesajınız iletişmiştir.");
+                form.style.display = "none";
             });
         });
 
