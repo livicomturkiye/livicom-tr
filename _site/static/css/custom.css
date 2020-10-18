@@ -9,7 +9,10 @@ a {cursor: pointer !important;}
     line-height: 1.7 !important;
     font-weight: 400 !important;
     color: #248f54 !important;
+    font-size:14px;
 }
+.download-link.manual {    font-size:18px; font-weight: bold;}
+
 a.manual {color:#d1810f !important;}
 .tn-elem__1429531561533720293314 a, .tn-elem__1429532261534750487787 a{ padding:8px 8px; font-weight: bold !important;}
 .tn-elem__1429531561533721051953 div.tn-atom, .tn-elem__1429532491533891479302 .tn-atom {color:rgba(0,0,0,0.9) !important;}
@@ -17,7 +20,7 @@ a.manual {color:#d1810f !important;}
 footer a, .foo a {color:white;}
 
 
-@media only screen and (max-width: 1120px) and (min-width: 981px)  {
+@media only screen and (max-width: 1280px) and (min-width: 981px)  {
   .t-menu__link-item {font-size:14px !important;}
   .t228__list_item { padding: 0 6px;}
 }
