@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://livicomturkiye.com/akilli-ev-sistemleri-uygulamasi</loc>
+<loc>http://localhost:4000/akilli-ev-sistemleri-uygulamasi.html</loc>
 </url>
 <url>
-<loc>https://livicomturkiye.com/akilli-ev-teknolojisi</loc>
+<loc>http://localhost:4000/akilli-ev-teknolojisi.html</loc>
 </url>
 <url>
-<loc>https://livicomturkiye.com/alarm-ve-otomasyon-sistemleri</loc>
+<loc>http://localhost:4000/alarm-ve-otomasyon-sistemleri.html</loc>
 </url>
 <url>
-<loc>https://livicomturkiye.com/hakkimizda</loc>
+<loc>http://localhost:4000/blog.html</loc>
 </url>
 <url>
-<loc>https://livicomturkiye.com/hubhelp</loc>
+<loc>http://localhost:4000/hakkimizda.html</loc>
 </url>
 <url>
-<loc>https://livicomturkiye.com</loc>
+<loc>http://localhost:4000/hubhelp</loc>
+</url>
+<url>
+<loc>http://localhost:4000/iletisim.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/admin/</loc>
+<lastmod>2020-09-24T16:55:02+03:00</lastmod>
 </url>
 </urlset>

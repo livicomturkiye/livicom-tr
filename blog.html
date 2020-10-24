@@ -1,17 +1,24 @@
 ---
 layout: default
 title: Blog
+description: Livicom Türkiye'nin iletişim sayfası. 
+canonical: https://livicomturkiye.com/iletisim
+image: static/img/prn_7363.jpg
 ---
 
-<h1>Latest Posts</h1>
 
-<ul>
-  {% for post in site.posts %}
-  <li>
-    <h2>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    <p>{{ post.excerpt }}</p>
-  </li>
-  {% endfor %}
-</ul>
+<div id="rec147128380" class="r t-rec" style="margin-top:128px;">
+
+<h1>Latest Posts</h1>
+  <ul>
+    {% for post in site.posts %}
+    <script>console.log("{{ post.title }}")</script>
+    <li>
+      <h2>
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
