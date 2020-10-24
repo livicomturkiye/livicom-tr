@@ -1,0 +1,22 @@
+---
+# front matter tells Jekyll to process Liquid
+layout: default
+title: Akıllı ev sistemleri ve Alarm Blogu | Livicom Türkiye  
+description: Livicom blog yazıları 
+canonical: https://livicomturkiye.com/blog/
+image: static/img/Livicom_main.jpg
+permalink: /:basename
+
+---
+
+<h1>{{ page.title }}</h1>
+
+<p>
+  {{ page.date | date_to_string }}
+  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% if author %} -
+  <a href="{{ site.baseurl }}{{ author.url }}">{{ author.name }}</a>
+  {% endif %}
+</p>
+
+{{ content }}
