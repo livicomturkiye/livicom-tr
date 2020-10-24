@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Test Yazısı
+title: Test
 date: 2020-10-24T16:08:59.809Z
 author: cbsofyalioglu
 ---
