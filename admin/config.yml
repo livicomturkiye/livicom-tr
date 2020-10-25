@@ -9,33 +9,25 @@ collections:
     label: 'Post'
     folder: 'blog/'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Slug', name: 'slug', widget: 'string', hint: 'URL uzantısı. Sadece İngilizce karakter. Örnek: bu-bir-test-yazisidir' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Cover Image', name: 'cover', widget: 'image' }
+      - { label: 'Cover Image', name: 'cover', widget: 'image', required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'authors'
-    label: 'Authors'
-    folder: '_authors/'
+  - name: "authors"
+    label: "Authors"
+    folder: "_authors/"
     create: true
     editor:
       preview: false
-    # updated fields in blog collection configuration
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - {
-          label: 'Author',
-          name: 'author',
-          widget: 'relation',
-          collection: 'authors',
-          display_fields: [display_name],
-          search_fields: [display_name],
-          value_field: 'name',
-        }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: "Layout", name: "layout", widget: "hidden", default: "author" }
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Diplay Name", name: "display_name", widget: "string" }
+      - { label: "Position", name: "position", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
