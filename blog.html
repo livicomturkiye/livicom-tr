@@ -5,6 +5,7 @@ description: Livicom Türkiye'nin iletişim sayfası.
 canonical: https://livicomturkiye.com/iletisim
 image: static/img/prn_7363.jpg
 ---
+<script>console.log("{{ site }}")</script>
 
 
 <div id="rec147128380" class="r t-rec" style="margin-top:128px;">
@@ -12,7 +13,6 @@ image: static/img/prn_7363.jpg
 <h1>Latest Posts</h1>
   <ul>
     {% for post in site.posts %}
-    <script>console.log("{{ post.title }}")</script>
     <li>
       <h2>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
