@@ -1,23 +1,20 @@
 # config.yml
 
 backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-media_folder: "assets/uploads"
+  name: test-repo
+media_folder: 'assets/uploads'
 collections:
   - name: 'blog'
-    label: 'Post'
-    folder: 'blog/'
+    label: 'Blog'
+    folder: '_posts/'
     create: true
-    slug: '{{slug}}'
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Slug', name: 'slug', widget: 'string', hint: 'URL uzantısı. Sadece İngilizce karakter. Örnek: bu-bir-test-yazisidir' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Cover Image', name: 'cover', widget: 'image', required: false }
+      - { label: 'Live On Site?', name: 'published', widget: 'boolean', default: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "authors"
     label: "Authors"
