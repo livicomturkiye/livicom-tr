@@ -4,8 +4,8 @@ backend:
   name: test-repo
 media_folder: 'assets/uploads'
 collections:
-  - name: 'blog'
-    label: 'Blog'
+  - name: 'post'
+    label: 'Post'
     folder: '_posts/'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -14,7 +14,8 @@ collections:
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Live On Site?', name: 'published', widget: 'boolean', default: false }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Cover Image', name: 'cover', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "authors"
     label: "Authors"
