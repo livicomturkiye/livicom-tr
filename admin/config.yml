@@ -10,7 +10,7 @@ slug:
   clean_accents: true
   sanitize_replacement: "_"
 collections:
-  - name: 'posts'
+  - name: 'yazilar'
     label: 'Post'
     folder: '_blog/'
     create: true

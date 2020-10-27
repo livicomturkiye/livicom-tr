@@ -5,7 +5,9 @@ plugins:
 
 collections:
   posts:
-    output          : true
+    output: true
+  yazilar:
+    output: true
   authors:
     output: true
 
