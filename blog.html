@@ -1,24 +1,33 @@
 ---
-layout: default
-title: Blog
+layout: blog
+title: Alarm, Otomasyon ve Güvenlik Sistemleri Blog | Livicom Türkiye
 description: Livicom Türkiye'nin iletişim sayfası. 
-canonical: https://livicomturkiye.com/iletisim
+canonical: https://livicomturkiye.com/blog
 image: static/img/prn_7363.jpg
 ---
 <script>console.log("{{ site }}")</script>
 
-
-<div id="rec147128380" class="r t-rec" style="margin-top:128px;">
-
-<h1>Latest Posts</h1>
-  <ul>
-    {% for post in site.posts %}
-    <li>
-      <h2>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </h2>
-      <p>{{ post.excerpt }}</p>
-    </li>
-    {% endfor %}
-  </ul>
+<div class="article blog-head">
+  <div class="post-head">
+    <h1 class="post-page-title">Blog</h1>
+    <p class="post-page-description">Alarm sistemleri, otomasyon, mobil güvenlik uygulamaları ve akıllı ev sistemleri üzerine blog yazıları</p>
+  </div>
 </div>
+
+
+<div class="section-4 blog-posts">
+  <div class="w-layout-grid grid-2">
+    {% for post in site.posts %}
+    <a class="link-block w-inline-block" href="{{ site.baseurl }}{{ post.url }}">
+      <div class="card">
+      <div class="card-image" style='background-image:url("{{ post.cover }}");'></div>
+        <div class="card-info-box">
+          <h3 class="card-title">{{ post.title }}</h3>
+          <p class="card-description">{{ post.description }}</p>
+        </div>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</div>
+

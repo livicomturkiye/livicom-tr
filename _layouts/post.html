@@ -1,17 +1,23 @@
-<!-- _layouts/post.html -->
---- 
-layout: default 
 ---
+layout: blog
+title: Alarm, Otomasyon ve Güvenlik Sistemleri Blog | Livicom Türkiye
+description: Livicom Türkiye'nin iletişim sayfası. 
+canonical: https://livicomturkiye.com/blog
+image: static/img/prn_7363.jpg
+---
+<div class="article">
+  <div class="post-head">
+    <h1 class="post-page-title">{{ page.title }}</h1>
+    <p class="post-page-description">{{ post.description }}</p>
+    <div class="authot-name">{{ post.author }}</div>
+    <div class="publish-date">{{ post.date }}<br></div>
+  </div>
+  <div class="post-cover"></div>
+  <div class="post-body">
+    <p class="post-content">{{ post.body }}</p>
+    {{ content }}
 
-<h1>{{ page.title }}</h1>
+  </div>
+</div>
 
-<p>
-  {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'name', page.author | first %}
-  {% if author %}
-    - <a href="{{ author.url }}">{{ author.display_name }}</a>
-  {% endif %}
-</p>
-
-{{ content }}
 
