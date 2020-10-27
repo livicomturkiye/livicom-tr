@@ -14,12 +14,13 @@ collections:
     label: 'Post'
     folder: '_posts/'
     create: true
-    slug: '{{slug}}'
+    slug: '{{fields.slug}}'
     editor:
       preview: false
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string', hint: 'Yazının başlığı. Aynı zamanda Google sıralamasında gözüken başlık da olacaktır. (Maks:60 karakter)' }
+      - { label: 'Slug', name: 'slug', widget: 'string', hint: "Yazının URL kısmı. Sadece ingilizce karakter. Örnek: bu-bir-test-yazisidir" }
       - { label: 'Description', name: 'description', widget: 'text', hint: 'Yazının kısa açıklaması ve özeti. Aynı zamanda Google sıralamasındaki açıklama da olacaktır.' }
       - { label: 'Cover Image', name: 'cover', widget: 'image', hint: 'Yazının büyük başlık fotoğrafı. Sosyal medyada paylaşımlarında gözükecek görseldir. (Önerilen boyut: Genişlik*Yükseklik = 1600px * 800px)' }
       - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', hint: 'Yazıya referans verilirken gözüken küçük fotoğraf.' }
