@@ -6,7 +6,6 @@ canonical: https://livicomturkiye.com/blog
 image: static/img/prn_7363.jpg
 ---
 
-<script>console.log("{{ site.yazilar }}")</script>
 
 <div class="article blog-head">
   <div class="post-head">
@@ -18,7 +17,7 @@ image: static/img/prn_7363.jpg
 
 <div class="section-4 blog-posts">
   <div class="w-layout-grid grid-2">
-    {% for post in site.posts %}
+    {% for post in site.yazilar %}
     <a class="link-block w-inline-block" href="{{ site.baseurl }}{{ post.url }}">
       <div class="card">
       <div class="card-image" style='background-image:url("{{ post.cover }}");'></div>
@@ -31,4 +30,7 @@ image: static/img/prn_7363.jpg
     {% endfor %}
   </div>
 </div>
+{{ site | asd }}
 
+<p>{{site | jsonify}}</p>
+<script>console.log("{{ site.yazilar }}")</script>
