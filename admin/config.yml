@@ -12,7 +12,7 @@ slug:
 collections:
   - name: 'posts'
     label: 'Post'
-    folder: 'blog/'
+    folder: '_blog/'
     create: true
     slug: '{{slug}}'
     editor:
