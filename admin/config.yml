@@ -8,17 +8,17 @@ locale: 'tr'
 slug:
   encoding: "ascii"
   clean_accents: true
-  sanitize_replacement: "_"
+  sanitize_replacement: "-"
 collections:
   - name: 'yazilar'
-    label: 'Post'
-    folder: '_blog/'
+    label: 'Yazı'
+    folder: '_yazilar/'
     create: true
     slug: '{{slug}}'
     editor:
       preview: false
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'webflow' }
       - { label: 'Title', name: 'title', widget: 'string', hint: 'Yazının başlığı. Aynı zamanda Google sıralamasında gözüken başlık da olacaktır. (Maks:60 karakter)' }
       - { label: 'Description', name: 'description', widget: 'text', hint: 'Yazının kısa açıklaması ve özeti. Aynı zamanda Google sıralamasındaki açıklama da olacaktır.' }
       - { label: 'Cover Image', name: 'cover', widget: 'image', hint: 'Yazının büyük başlık fotoğrafı. Sosyal medyada paylaşımlarında gözükecek görseldir. (Önerilen boyut: Genişlik*Yükseklik = 1600px * 800px)' }

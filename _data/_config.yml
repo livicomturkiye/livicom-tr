@@ -28,6 +28,11 @@ defaults:
       layout: "author"
   - scope:
       path: ""
+      type: "yazilar"
+    values:
+      layout: "webflow"
+  - scope:
+      path: ""
       type: "posts"
     values:
       layout: "post"
