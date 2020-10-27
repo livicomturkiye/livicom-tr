@@ -23,7 +23,18 @@ collections:
       - { label: 'Description', name: 'description', widget: 'text', hint: 'Yazının kısa açıklaması ve özeti. Aynı zamanda Google sıralamasındaki açıklama da olacaktır.' }
       - { label: 'Cover Image', name: 'cover', widget: 'image', hint: 'Yazının büyük başlık fotoğrafı. Sosyal medyada paylaşımlarında gözükecek görseldir. (Önerilen boyut: Genişlik*Yükseklik = 1600px * 800px)' }
       - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', hint: 'Yazıya referans verilirken gözüken küçük fotoğraf.' }
+      - {
+          label: "Yazar",
+          name: "author",
+          widget: "relation",
+          collection: "authors",
+          displayFields: [display_name],
+          searchFields: [display_name],
+          valueField: "name",
+          required: false
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
   - name: "authors"
     label: "Authors"
     folder: "_authors/"
