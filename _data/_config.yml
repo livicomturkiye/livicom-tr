@@ -6,8 +6,6 @@ plugins:
 collections:
   posts:
     output: true
-  yazilar:
-    output: true
   authors:
     output: true
 
@@ -26,11 +24,6 @@ defaults:
       type: "authors"
     values:
       layout: "author"
-  - scope:
-      path: ""
-      type: "yazilar"
-    values:
-      layout: "webflow"
   - scope:
       path: ""
       type: "posts"

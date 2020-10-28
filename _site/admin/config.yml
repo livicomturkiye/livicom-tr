@@ -10,9 +10,9 @@ slug:
   clean_accents: true
   sanitize_replacement: "-"
 collections:
-  - name: 'yazilar'
-    label: 'Yazı'
-    folder: '_yazilar/'
+  - name: 'posts'
+    label: 'Post'
+    folder: '_post/'
     create: true
     slug: '{{slug}}'
     editor:
