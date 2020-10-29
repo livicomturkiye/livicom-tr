@@ -18,6 +18,7 @@ collections:
     editor:
       preview: false
     fields:
+      - { label: 'Permalink', name: 'permalink', widget: 'hidden', default: ':year-:month-:day-:title:output_ext' }
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string', hint: 'Yazının başlığı. Aynı zamanda Google sıralamasında gözüken başlık da olacaktır. (Maks:60 karakter)' }
       - { label: 'Description', name: 'description', widget: 'text', hint: 'Yazının kısa açıklaması ve özeti. Aynı zamanda Google sıralamasındaki açıklama da olacaktır.' }
