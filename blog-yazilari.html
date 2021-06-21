@@ -1,7 +1,7 @@
 ---
 layout: webflow
 title: Alarm, Otomasyon ve Güvenlik Sistemleri Blog | Livicom Türkiye
-description: Livicom Türkiye'nin iletişim sayfası. 
+description: Livicom Türkiye'nin iletişim sayfası.
 canonical: https://livicomturkiye.com/blog
 image: static/img/prn_7363.jpg
 ---
@@ -10,7 +10,8 @@ image: static/img/prn_7363.jpg
 <div class="article blog-head">
   <div class="post-head">
     <h1 class="post-page-title">Blog</h1>
-    <p class="post-page-description">Alarm sistemleri, otomasyon, mobil güvenlik uygulamaları ve akıllı ev sistemleri üzerine blog yazıları</p>
+    <p class="post-page-description">Alarm sistemleri, otomasyon, mobil güvenlik uygulamaları ve akıllı ev sistemleri
+      üzerine blog yazıları</p>
   </div>
 </div>
 
@@ -18,9 +19,9 @@ image: static/img/prn_7363.jpg
 <div class="section-4 blog-posts" style="padding:0 3vw;">
   <div class="w-layout-grid grid-2">
     {% for post in site.posts %}
-    <a class="link-block w-inline-block" href="{{ site.baseurl }}{{ post.url }}">
+    <a class="link-block w-inline-block" href="{{ site.baseurl }}{{ post.url.replace('.html', '') }}">
       <div class="card">
-      <div class="card-image" style='background-image:url("{{ post.cover }}");'></div>
+        <div class="card-image" style='background-image:url("{{ post.cover }}");'></div>
         <div class="card-info-box">
           <h3 class="card-title">{{ post.title }}</h3>
           <p class="card-description">{{ post.description }}</p>
@@ -30,4 +31,3 @@ image: static/img/prn_7363.jpg
     {% endfor %}
   </div>
 </div>
-
