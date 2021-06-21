@@ -4,9 +4,7 @@ layout: post
 title: Kablosuz Akıllı Ev Otomasyonu ile Yüksek Konfor ve Güvenlik Bir Arada
 description: "Günümüzde her alanda kablosuz akıllı ev sistemlerinin kullanımı
   çoğalmakta. Özellikle akıllı ev otomasyonu için üretilen kablosuz akıllı ev
-  sistemleri gittikçe rağbet görmektedir. Akıllı ev sistemlerini diğer genel
-  sistemlerde ayıran en önemli özellik, yüksek güvenlik ve konfor sağlamasıdır.
-  "
+  sistemleri gittikçe rağbet görmektedir. "
 cover: /assets/uploads/vinicius-amnx-amano-alpekp29eys-unsplash_1_.jpg
 thumbnail: /assets/uploads/vinicius-amnx-amano-alpekp29eys-unsplash_1_.jpg
 date: 2021-06-21T11:55:57.931Z
