@@ -29,6 +29,8 @@ image: static/img/Livicom_Catalog_beig.jpg
 {% assign usus = site.data.products | where: "Short", "usus" %}
 {% assign lsiren = site.data.products | where: "Short", "lsiren" %}
 {% assign ltrfid = site.data.products | where: "Short", "ltrfid" %}
+{% assign lvoc = site.data.products | where: "Short", "lvoc" | first %}
+{% assign lsh4g = site.data.products | where: "Short", "lsh4g" | first %}
 
 
 <!--/scripts-->
@@ -203,8 +205,8 @@ image: static/img/Livicom_Catalog_beig.jpg
                             <ul> </ul> <span><span data-redactor-style="font-size: 18px;" style="font-size: 18px;">
                                     {{ lsh[0]["Description (TR)"] }}<br /><br /></span></span>
                             <span style="color: rgb(112, 112, 112);"><span data-redactor-style=""><span
-                                        data-redactor-tag="span"
-                                        style="font-size: 16px;">{{ lsh[0]["Specs (TR)"] }}<br /></span></span>
+                                        data-redactor-tag="span" style="font-size: 16px;">{{ lsh[0]["Specs (TR)"]
+                                        }}<br /></span></span>
                             </span><br />
 
                             <a class="download-link manual js-product-link" title="Kullanım Rehberi" href="/hubhelp">
@@ -214,7 +216,7 @@ image: static/img/Livicom_Catalog_beig.jpg
                             <a class="download-link js-product-link" title="Kullanım Kılavuzunu İndirin" target="_blank"
                                 download
                                 href="https://clientsites.imfast.io/livicom-net/pdf/hubhelp-Livi_Smart_Hub_en.pdf">
-                                Kullanım Kılavuzunu İndir 
+                                Kullanım Kılavuzunu İndir
                             </a>
                         </div>
                     </div>
@@ -246,12 +248,14 @@ image: static/img/Livicom_Catalog_beig.jpg
 
                         </div>
 
-                        <a class="download-link manual js-product-link" title="Kullanım Rehberi" href="/hubhelp" style="position:relative; bottom:-32px;">
+                        <a class="download-link manual js-product-link" title="Kullanım Rehberi" href="/hubhelp"
+                            style="position:relative; bottom:-32px;">
                             Kullanım Rehberi
                         </a>
                         <br />
-                        <a class="download-link js-product-link" title="Kullanım Kılavuzunu İndirin" style="position:relative; bottom:-32px;" target="_blank"
-                            download href="https://clientsites.imfast.io/livicom-net/pdf/hubhelp-Livi_Smart_Hub_en.pdf">
+                        <a class="download-link js-product-link" title="Kullanım Kılavuzunu İndirin"
+                            style="position:relative; bottom:-32px;" target="_blank" download
+                            href="https://clientsites.imfast.io/livicom-net/pdf/hubhelp-Livi_Smart_Hub_en.pdf">
                             Kullanım Kılavuzunu İndir
                         </a>
 
@@ -363,8 +367,7 @@ image: static/img/Livicom_Catalog_beig.jpg
                     <div class="t776__textwrapper">
                         <div class="t776__title t-name t-name_md js-product-name" field="li_title__1553140648810"
                             style="color:#222222;font-size:22px;font-weight:600;padding-top:10px;padding-bottom:10px;font-family:'Roboto';">
-                            <div style="font-size:22px;" data-customstyle="yes">{{ fs[0]["Name (TR)"] }}</div>
-                        </div>
+                            {{ fs[0]["Name (TR)"] }}</div>
                         <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1553140648810"
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
                             <div style="font-family:'Open Sans';" data-customstyle="yes">
@@ -376,7 +379,7 @@ image: static/img/Livicom_Catalog_beig.jpg
                             <a class="download-link manual js-product-link" title="Kullanım Rehberi" href="/fshelp">
                                 Kullanım Rehberi
                             </a>
-                            <br/>
+                            <br />
                             <a class="download-link js-product-link" title="Kullanım Kılavuzunu İndirin" target="_blank"
                                 download href="https://clientsites.imfast.io/livicom-net/pdf/fshelp-Livi_FS_en.pdf">
                                 Kullanım Kılavuzunu İndir
@@ -421,15 +424,15 @@ image: static/img/Livicom_Catalog_beig.jpg
                         <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1497456130776"
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
                             <div style="font-family:'Open Sans';" data-customstyle="yes">
-                                <ul> </ul> <span
-                                    style="font-size: 18px;">{{ cs[0]["Description (TR)"] }}<br /></span><br /><span
-                                    style="color: rgb(90,90,90);">{{ cs[1]["Specs (TR)"] }}</span><br />
+                                <ul> </ul> <span style="font-size: 18px;">{{ cs[0]["Description (TR)"]
+                                    }}<br /></span><br /><span style="color: rgb(90,90,90);">{{ cs[1]["Specs (TR)"]
+                                    }}</span><br />
                             </div>
                             <br />
                             <a class="download-link manual js-product-link" title="Kullanım Rehberi" href="/cshelp">
                                 Kullanım Rehberi
                             </a>
-                            <br/>
+                            <br />
                             <a class="download-link js-product-link" title="Kullanım Kılavuzunu İndirin" target="_blank"
                                 download href="https://clientsites.imfast.io/livicom-net/pdf/cshelp-Livi_CS_en.pdf">
                                 Kullanım Kılavuzunu İndir
@@ -458,15 +461,15 @@ image: static/img/Livicom_Catalog_beig.jpg
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
                             <ul> </ul> <span><span style="font-size: 18px;" data-redactor-style="font-size: 18px;">
                                     {{ gs[0]["Description (TR)"] }}<br /></span><br /></span><span
-                                style="color: rgb(90,90,90);"><span
-                                    data-redactor-style="">{{ gs[0]["Specs (TR)"] }}</span></span>
+                                style="color: rgb(90,90,90);"><span data-redactor-style="">{{ gs[0]["Specs (TR)"]
+                                    }}</span></span>
                         </div>
                     </div>
                     <br />
                     <a class="download-link manual js-product-link" title="Kullanım Rehberi" href="/gshelp">
                         Kullanım Rehberi
                     </a>
-                    <br/>
+                    <br />
                     <a class="download-link js-product-link" title="Kullanım Kılavuzunu İndirin" target="_blank"
                         download href="https://clientsites.imfast.io/livicom-net/pdf/gshelp-Livi_GS_en.pdf">
                         Kullanım Kılavuzunu İndir
@@ -493,9 +496,9 @@ image: static/img/Livicom_Catalog_beig.jpg
                         <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1553140648810"
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
                             <div style="font-family:'Open Sans';" data-customstyle="yes">
-                                <ul> </ul><span
-                                    style="font-size: 18px;">{{ vs[0]["Description (TR)"] }}</span><br /><br /><span
-                                    style="color: rgb(90,90,90);">{{ vs[0]["Specs (TR)"] }}</span>
+                                <ul> </ul><span style="font-size: 18px;">{{ vs[0]["Description (TR)"]
+                                    }}</span><br /><br /><span style="color: rgb(90,90,90);">{{ vs[0]["Specs (TR)"]
+                                    }}</span>
                             </div>
                             <br />
                             <a class="download-link manual js-product-link" title="Kullanım Rehberi" href="/vshelp">
@@ -585,10 +588,10 @@ image: static/img/Livicom_Catalog_beig.jpg
                             {{ kf[0]["Name (TR)"] }}<br /></div>
                         <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1553140035794"
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
-                            <ul> </ul> <span><span style="font-size: 18px;"
-                                    data-redactor-style="font-size: 18px;">{{ kf[0]["Description (TR)"] }}.</span><br /><br /></span><span
-                                style="color: rgb(90,90,90);"><span
-                                    data-redactor-style="">{{ kf[0]["Specs (TR)"] }}</span></span><br />
+                            <ul> </ul> <span><span style="font-size: 18px;" data-redactor-style="font-size: 18px;">{{
+                                    kf[0]["Description (TR)"] }}.</span><br /><br /></span><span
+                                style="color: rgb(90,90,90);"><span data-redactor-style="">{{ kf[0]["Specs (TR)"]
+                                    }}</span></span><br />
                         </div>
                         <br />
                         <a class="download-link manual js-product-link" title="Kullanım Rehberi" href="/kfhelp">
@@ -703,8 +706,8 @@ image: static/img/Livicom_Catalog_beig.jpg
                             {{ rel[0]["Name (TR)"] }}<br /></div>
                         <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1553140035794"
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
-                            <ul> </ul> <span><span style="font-size: 18px;"
-                                    data-redactor-style="font-size: 18px;">{{ rel[0]["Description (TR)"] }}</span><br /><br /></span><span
+                            <ul> </ul> <span><span style="font-size: 18px;" data-redactor-style="font-size: 18px;">{{
+                                    rel[0]["Description (TR)"] }}</span><br /><br /></span><span
                                 style="color: rgb(90,90,90);"><span data-redactor-style="font-family:'Open Sans';"
                                     style="font-family:'Open Sans';">{{ rel[0]["Specs (TR)"] }}
                                 </span></span><br />
@@ -732,9 +735,9 @@ image: static/img/Livicom_Catalog_beig.jpg
                         <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1553140648810"
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
                             <div style="font-family:'Open Sans';" data-customstyle="yes">
-                                <ul> </ul><span
-                                    style="font-size: 18px;">{{ llc[0]["Description (TR)"] }}</span><br /><br /><span
-                                    style="color: rgb(90,90,90);">{{ llc[0]["Specs (TR)"] }}</span><br /><br />
+                                <ul> </ul><span style="font-size: 18px;">{{ llc[0]["Description (TR)"]
+                                    }}</span><br /><br /><span style="color: rgb(90,90,90);">{{ llc[0]["Specs (TR)"]
+                                    }}</span><br /><br />
                             </div>
                         </div>
                     </div>
@@ -777,9 +780,9 @@ image: static/img/Livicom_Catalog_beig.jpg
                         <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1497456130776"
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
                             <div style="font-family:'Open Sans';" data-customstyle="yes">
-                                <ul> </ul><span
-                                    style="font-size: 18px;">{{ rsu[0]["Description (TR)"] }}</span><br /><br /><span
-                                    style="color: rgb(90,90,90);">{{ rsu[0]["Specs (TR)"] }}<br /></span>
+                                <ul> </ul><span style="font-size: 18px;">{{ rsu[0]["Description (TR)"]
+                                    }}</span><br /><br /><span style="color: rgb(90,90,90);">{{ rsu[0]["Specs (TR)"]
+                                    }}<br /></span>
                             </div>
                         </div>
                     </div>
@@ -803,10 +806,10 @@ image: static/img/Livicom_Catalog_beig.jpg
                             {{ wcu[0]["Name (TR)"] }}<br /></div>
                         <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1553140035794"
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
-                            <ul> </ul> <span><span style="font-size: 18px;"
-                                    data-redactor-style="font-size: 18px;">{{ wcu[0]["Description (TR)"] }}.</span><br /><br /></span><span
-                                style="color: rgb(90,90,90);"><span
-                                    data-redactor-style="">{{ wcu[0]["Specs (TR)"] }}</span></span><br />
+                            <ul> </ul> <span><span style="font-size: 18px;" data-redactor-style="font-size: 18px;">{{
+                                    wcu[0]["Description (TR)"] }}.</span><br /><br /></span><span
+                                style="color: rgb(90,90,90);"><span data-redactor-style="">{{ wcu[0]["Specs (TR)"]
+                                    }}</span></span><br />
                         </div>
                     </div>
                 </div>
@@ -829,16 +832,16 @@ image: static/img/Livicom_Catalog_beig.jpg
                         <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1553140648810"
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
                             <div style="font-family:'Open Sans';" data-customstyle="yes">
-                                <ul> </ul><span
-                                    style="font-size: 18px;">{{ lwls[0]["Description (TR)"] }}.</span><br /><br /><span
-                                    style="color: rgb(90,90,90);">{{ lwls[0]["Specs (TR)"] }}</span><br />
+                                <ul> </ul><span style="font-size: 18px;">{{ lwls[0]["Description (TR)"]
+                                    }}.</span><br /><br /><span style="color: rgb(90,90,90);">{{ lwls[0]["Specs (TR)"]
+                                    }}</span><br />
                             </div>
                         </div>
                         <br />
                         <a class="download-link manual js-product-link" title="Kullanım Rehberi" href="/lshelp">
                             Kullanım Rehberi
                         </a>
-                        <br/>
+                        <br />
                         <a class="download-link js-product-link" title="Kullanım Kılavuzunu İndirin" target="_blank"
                             download href="https://clientsites.imfast.io/livicom-net/pdf/lshelp-Livi_LS_en.pdf">
                             Kullanım Kılavuzunu İndir
@@ -884,9 +887,9 @@ image: static/img/Livicom_Catalog_beig.jpg
                             <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1497456130776"
                                 style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
                                 <div style="font-family:'Open Sans';" data-customstyle="yes">
-                                    <ul> </ul><span
-                                        style="font-size: 18px;">{{ ts[0]["Description (TR)"] }}</span><br /><br /><span
-                                        style="color: rgb(90,90,90);">{{ ts[0]["Specs (TR)"] }}</span><br />
+                                    <ul> </ul><span style="font-size: 18px;">{{ ts[0]["Description (TR)"]
+                                        }}</span><br /><br /><span style="color: rgb(90,90,90);">{{ ts[0]["Specs (TR)"]
+                                        }}</span><br />
                                 </div>
                             </div>
                             <br />
@@ -949,9 +952,9 @@ image: static/img/Livicom_Catalog_beig.jpg
                         <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1553140648810"
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
                             <div style="font-family:'Open Sans';" data-customstyle="yes">
-                                <ul> </ul><span
-                                    style="font-size: 18px;">{{ usus[0]["Description (TR)"] }}</span><br /><br /><span
-                                    style="color: rgb(90,90,90);">{{ usus[0]["Specs (TR)"] }}</span><br />
+                                <ul> </ul><span style="font-size: 18px;">{{ usus[0]["Description (TR)"]
+                                    }}</span><br /><br /><span style="color: rgb(90,90,90);">{{ usus[0]["Specs (TR)"]
+                                    }}</span><br />
                             </div>
                         </div>
                     </div>
@@ -993,9 +996,9 @@ image: static/img/Livicom_Catalog_beig.jpg
                         <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1497456130776"
                             style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
                             <div style="font-family:'Open Sans';" data-customstyle="yes">
-                                <ul> </ul><span
-                                    style="font-size: 18px;">{{ lsiren[0]["Description (TR)"] }}</span><br /><br /><span
-                                    style="color: rgb(90,90,90);">{{ lsiren[0]["Specs (TR)"] }}</span><br />
+                                <ul> </ul><span style="font-size: 18px;">{{ lsiren[0]["Description (TR)"]
+                                    }}</span><br /><br /><span style="color: rgb(90,90,90);">{{ lsiren[0]["Specs (TR)"]
+                                    }}</span><br />
                             </div>
                         </div>
                     </div>
@@ -1044,6 +1047,117 @@ image: static/img/Livicom_Catalog_beig.jpg
             }, 500);
         });
     </script>
+
+
+    <!-- New Products Section: Livi VOC and Livi Smart Hub 4G -->
+    <div id="rec147946660" class="r t-rec t-rec_pt_45 t-rec_pb_45" style="padding-top:45px;padding-bottom:45px; "
+        data-animationappear="off" data-record-type="776">
+        <!-- t776 -->
+        <div class="t776" data-show-count="">
+            <div class="t776__parent t776__container_mobile-grid">
+                <!-- Livi VOC Product -->
+                <div class="t776__col t-col t-col_6 t-align_left t-item t776__col_mobile-grid js-product"
+                    data-product-lid="1497456130780">
+                    <div class="t776__content">
+                        <div class="t776__imgwrapper " style="padding-bottom:67.857142857143%;">
+                            <div class="t776__bgimg t776__bgimg_first_hover t-bgimg js-product-img loaded"
+                                data-original="static/img/FS_2.jpg" style="background-image:url('static/img/FS_2.jpg');"
+                                bgimgfield="li_gallery__1497456130780:::0" src=""></div>
+                            <div class="t776__bgimg t776__bgimg_second t-bgimg loaded"
+                                data-original="static/img/FS_2.jpg" style="background-image:url('static/img/FS_2.jpg');"
+                                src="">
+                            </div>
+                        </div>
+                        <div class="t776__textwrapper">
+                            <div class="t776__title t-name t-name_xl js-product-name" field="li_title__1497456130780"
+                                style="color:#222222;font-size:22px;font-weight:600;padding-top:10px;padding-bottom:10px;font-family:'Roboto';">
+                                <div style="font-size:22px;" data-customstyle="yes">Livi VOC Hava Kalitesi Detektörü</div>
+                            </div>
+                            <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1497456130780"
+                                style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
+                                <div style="font-size:18px;font-family:'Open Sans';" data-customstyle="yes">
+                                    Livi VOC hava kalitesi dedektörü (bundan sonra dedektör olarak anılacaktır), formaldehit (HCHO), VOC/TVOC'ler, sıcaklık ve nemi ölçmek ve iç mekan hava kalitesini iyileştirmek için doğru veriler sağlamak üzere tasarlanmıştır. Dedektör, okumaları Livi Smart Hub'a (bundan sonra hub olarak anılacaktır) gönderir. Dahili sensörler her 30 saniyede bir ölçüm yapar. Dedektör, HCHO, VOC/TVOC'ler, sıcaklıkta 1 °C'lik ve/veya nemde %5'lik bir değişiklik tespit ettiğinde alınan verileri otomatik olarak hub'a gönderir. Tüm parametreler değişmezse, dedektör her 10 dakikada bir güncellenmiş okumalar gönderir. Dedektör, dahili sensörlere engelsiz dairesel hava erişimi sağlayan delikli bir muhafazaya sahiptir.
+                                </div>
+                                <br><br>
+                                <div style="color: rgb(90,90,90);font-size:16px;" data-customstyle="yes">
+                                    Çalışma frekansı: 868,7 MHz<br/>Çalışma aralığı: Livi Smart Hub'dan 1 km'ye kadar<br/>Çalışma sıcaklığı: -10 ila +50 °C<br/>Tespit parametreleri: Formaldehit (HCHO), VOC/TVOC'ler, sıcaklık, nem<br/>Ölçüm sıklığı: Her 30 saniyede bir<br/>Veri iletimi: Parametreler değiştiğinde otomatik (1°C sıcaklık, %5 nem)<br/>Düzenli güncellemeler: Değişiklik yoksa her 10 dakikada bir<br/>Muhafaza: Optimal hava sirkülasyonu için delikli tasarım<br/>Güç kaynağı: dahili şarj edilebilir pil<br/>Pil ömrü: 12 aya kadar<br/>Bağlantı: Livi Smart Hub'a kablosuz bağlantı
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <a class="download-link js-product-link" title="Kullanım Kılavuzunu İndirin" target="_blank"
+                            href="assets/uploads/Livi_VOC_en.pdf">
+                            <div class="download-link-container">
+                                <div class="download-link-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                        width="24" height="24">
+                                        <path
+                                            d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" />
+                                    </svg>
+                                </div>
+                                <div class="download-link-text">Kullanım Kılavuzunu İndir</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Livi Smart Hub 4G Product -->
+                <div class="t776__col t-col t-col_6 t-align_left t-item t776__col_mobile-grid js-product"
+                    data-product-lid="1497456130781">
+                    <div class="t776__content">
+                        <div class="t776__imgwrapper " style="padding-bottom:67.857142857143%;">
+                            <div class="t776__bgimg t776__bgimg_first_hover t-bgimg js-product-img loaded"
+                                data-original="assets/uploads/Hub_2.jpg"
+                                style="background-image:url('assets/uploads/Hub_2.jpg');"
+                                bgimgfield="li_gallery__1497456130781:::0" src=""></div>
+                            <div class="t776__bgimg t776__bgimg_second t-bgimg loaded"
+                                data-original="assets/uploads/Hub_2.jpg"
+                                style="background-image:url('assets/uploads/Hub_2.jpg');" src="">
+                            </div>
+                        </div>
+                        <div class="t776__textwrapper">
+                            <div class="t776__title t-name t-name_xl js-product-name" field="li_title__1497456130781"
+                                style="color:#222222;font-size:22px;font-weight:600;padding-top:10px;padding-bottom:10px;font-family:'Roboto';">
+                                <div style="font-size:22px;" data-customstyle="yes">{{ lsh4g["Name (TR)"] }}</div>
+                            </div>
+                            <div class="t776__descr t-descr t-descr_xxs" field="li_descr__1497456130781"
+                                style="color:#222222;font-size:16px;line-height:1.4;font-weight:300;padding-bottom:0px;font-family:'Open Sans';">
+                                <div style="font-size:18px;font-family:'Open Sans';" data-customstyle="yes">
+                                    {{ lsh4g["Description (TR)"] }}
+                                </div>
+                                <br><br>
+                                <div style="color: rgb(90,90,90);font-size:16px;" data-customstyle="yes">
+                                    {{ lsh4g["Specs (TR)"] }}
+                                </div>
+                            </div>
+                        </div>
+                        <br />
+                        <a class="download-link js-product-link" title="Kullanım Kılavuzunu İndirin" target="_blank"
+                            href="assets/uploads/Livi_Smart_Hub_manual_2022.pdf">
+                            <div class="download-link-container">
+                                <div class="download-link-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                        width="24" height="24">
+                                        <path
+                                            d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" />
+                                    </svg>
+                                </div>
+                                <div class="download-link-text">Kullanım Kılavuzunu İndir</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function () {
+                t776__showMore('147946660');
+                setTimeout(function () {
+                    t776__init('147946660');
+                }, 500);
+            });
+        </script>
+    </div>
 
 </div>
 </div>
